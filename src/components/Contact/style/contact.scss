@@ -6,22 +6,27 @@
         display: flex;
         margin-bottom: 4em;
         justify-content: space-evenly;
+
         @include md {
             justify-content: space-between;
         }
+
         border: 2px solid $prime-colour;
-        padding: 18px;
+        padding: 8px;
         border-radius: 10px;
-        li{
+
+        li {
             list-style: none;
-            a{
+
+            a {
                 color: $prime-colour;
                 transition: 0.4s;
-                font-size: 3em;
+                font-size: 2em;
+
                 &:hover {
                     color: $scnd-colour;
                 }
-            }   
+            }
         }
     }
 }

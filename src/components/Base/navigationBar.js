@@ -45,7 +45,7 @@ const Navigation = () => {
         to="/request-quote"
         className="btn quote-btn"
       >
-        Request Quote
+        Apply now
       </NavLink>
     </div>
   );

@@ -32,7 +32,7 @@ const Home = () => {
                 to="/request-quote"
                 className=""
               >
-                Request Quote
+                Apply now
               </NavLink>
               {/* <div className="users-list">
                                 <img src={user} className="img-fluid" />

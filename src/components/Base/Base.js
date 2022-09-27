@@ -26,8 +26,8 @@ const Base = ({ children }) => {
                 <div className="col-md-3 abt-company">
                   <img src={logo} className="img-fluid" />
                   <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in , making it over 2000 years old.
+                    Knowing what our customers want most and what our company
+                    does best, we focus on where those two meet.
                   </p>
                 </div>
                 <div className="col-4 col-md-2 company">
@@ -88,7 +88,7 @@ const Base = ({ children }) => {
                   {/* <p><NavLink exact={true} activeClassName='is-active' to='/service/medical-coding'>Medical Coding</NavLink></p> */}
                   {/* <p><NavLink exact={true} activeClassName='is-active' to='/service/web-development'>Software Development</NavLink></p> */}
                 </div>
-                <div className="col-md-3 policyes">
+                {/* <div className="col-md-3 policyes">
                   <h6>About</h6>
 
                   <p>
@@ -109,7 +109,7 @@ const Base = ({ children }) => {
                       Terms & Condition{" "}
                     </NavLink>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
             <hr />
