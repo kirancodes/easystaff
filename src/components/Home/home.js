@@ -59,7 +59,7 @@ const Home = () => {
                     of business that underlays the very existence of businesses.
                     The challenges encountered in business and leadership
                     translates into a problem-solving and target driven work
-                    force. With evolving business needs, EC Staff provides the
+                    force. With evolving business needs, EasyStaff provides the
                     cutting-edge human capital to aid in business needs.
                   </p>
                   <NavLink exact={true} activeClassName="is-active" to="/about">
