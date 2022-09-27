@@ -8,7 +8,7 @@ const Navigation = () => {
 
   return (
     <div className="container navigation__wrapper">
-      <NavLink exact={true} activeClassName="is-active" to="/amor">
+      <NavLink exact={true} activeClassName="is-active" to="/">
         <img src={logo} />
       </NavLink>
 
