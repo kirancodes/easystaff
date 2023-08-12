@@ -4,18 +4,16 @@ import contactus from "../../assets/contactus.jpg";
 import "./style/contact.css";
 import { HiMail } from "react-icons/hi";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { AiFillFacebook } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
 import { AiFillPhone } from "react-icons/ai";
 
-const contact = () => {
+const Contact = () => {
   return (
     <Base>
       <div className="contacts">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <img src={contactus} className="img-fluid" />
+              <img alt="contact" src={contactus} className="img-fluid" />
             </div>
             <div className="col-md-6 m-md-auto p-md-4">
               <h2>Get In Touch With Us</h2>
@@ -46,6 +44,22 @@ const contact = () => {
           </div>
         </div>
       </div>
+      <div class="row infos contacts">
+        <div class="col-md-6 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1500">
+          <h6>OVERSEAS</h6>
+          <p class="mb-0">Amor Business Solutions INC</p>
+          <p>PO Box # 17 <br></br>Woodworth<br></br> WI 53194 USA</p>
+          <a href="tel:+1(262)3089894">+1 (262) 308 9894</a>
+        </div>
+        <div class="col-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500">
+          <h6>DOMESTIC</h6>
+          <p class="mb-0">Amor Business Solutions LLP</p>
+          <p>1st Floor, C K Tower, <br></br> Opp. Sreekrishnapuram Bus Stand,<br></br>Sreekrishnapuram, Palakkad,<br></br> Kerala,India
+            679 513</p>
+          <a href="tel:+919946666230">+91 994 666 6230</a> <br></br>
+          <a href="tel:+918921159464">+91 892 115 9464</a>
+        </div>
+      </div>
       <div className="container social-wrap">
         <ul>
           <li>
@@ -71,4 +85,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
